@@ -1,5 +1,5 @@
 ## Favorite Places
-This app helps you to lock your memories with any place that you visited or wish to visit by saving photos, some description about the plce, date of visit and most importantly the google map location. this app use google map api to generate the location from latitude and longitude of a place. 
+This app helps you to lock your memories with any place that you visited or wish to visit by saving photos, some description about the place, date of visit and most importantly the google map location. this app use google map api to generate the location from latitude and longitude of a place. 
 ![favorite places app ss](https://user-images.githubusercontent.com/92887905/158871049-10708efc-2b82-4ae2-bac5-060c50cf84d7.jpg)
 
 
