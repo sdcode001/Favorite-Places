@@ -10,7 +10,9 @@ Following are few android concepts used to achieve the functionalities in app :
 #### Database: Here two SQlite databases is used. one to store details of a place.
 #### Premission Management: Dexter is used to manage runtime permissions.
 #### Camera & Storage: Camera is used to take photo of current location & storage access is used to fetch photo from phones storage.
-#### API's: 1) Fused location API-> to get the current lattitude and longitude of user, 2) Google Maps API-> to show the the location of a place in Map, 
+#### API's: 
+   1) Fused location API-> to get the current lattitude and longitude of user, 
+   2) Google Maps API-> to show the the location of a place in Map, 
    3) GeoCoder API-> to generatie a address of a place from given latitude and longitude.
 
 ### Application Link & Future Scope :
