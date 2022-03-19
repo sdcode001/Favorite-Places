@@ -1,24 +1,20 @@
-## Easy Bill Book
-
-
- 
+## Favorite Places
+This app helps you to lock your memories with any place that you visited or wish to visit by saving photos, some description about the plce, date of visit and most importantly the google map location. this app use google map api to generate the location from latitude and longitude of a place. 
 ![favorite places app ss](https://user-images.githubusercontent.com/92887905/158871049-10708efc-2b82-4ae2-bac5-060c50cf84d7.jpg)
 
 
 
 ### Functionality & Concepts used :
 Following are few android concepts used to achieve the functionalities in app :
-#### LinearLayout: All the activities uses LinearLayout to position buttons,textviews,edittexts and recyclerviews.
-#### RecyclerView: To show customer records,name and phone number recyclerview is used in vertical mode.Recyclerview is also used to show product list.
-#### Adapters: RecyclerView Adapters are used to make connection between databases and recyclerviews.
-#### SmsManager: This api is used to send SMS from users phone to customers phone numbers.
-#### Database: Here two SQlite databases is used. one to store customer records and another for product lists.
-#### SharedPreferences: To store the shop name sharedpreferences is used here.A separate class is made for sharedpreferences and its methods.
-#### AlertDialog: Alertdialogs are used to update customers records,to alert about deletion,to alert about sending SMS.
+#### UI: To make ui beautiful and easy to interactive LinearLayout, RecyclerView, cardview, a third party library hdodenhof for circulat imageView.
+#### Database: Here two SQlite databases is used. one to store details of a place.
+#### Premission Management: Dexter is used to manage runtime permissions.
+#### Camera & Storage: Camera is used to take photo of current location & storage access is used to fetch photo from phones storage.
+#### API's: 1) Fused location API-> to get the current lattitude and longitude of user, 2) Google Maps API-> to show the the location of a place in Map, 3) GeoCoder API-> to generatie a address of a place from given latitude and longitude.
 
 ### Application Link & Future Scope :
-I have uploaded this app on playstore 1 day ago(1/1/2022) and find some problem on publication on playstore.i will fix a reupload it so it will take some days to pubish.here is my playstore developer account link and it will available here: 
-https://play.google.com/store/apps/developer?id=dEySoUvIk and release APK also available in this repository
+it will take some time to pubish this app on playstore.here is my playstore developer account link and it will available here: 
+https://play.google.com/store/apps/developer?id=dEySoUvIk and file APK is also available in this repository.
 
 
-Coming to the future plan: i want to make this app a server clint based app.shop owner will have server site app where he/she can set product menu and all product details and using clint site app customers can select and order the products from there phone and also this app will have google map through which customers can track their orders.
+
